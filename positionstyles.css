@@ -1,5 +1,6 @@
 /* CSS - Name: "positionstyles.css" */
 /* Activity 1 styles */
+*{box-sizing: border-box}
 
     .red1 { 
     width: 100px; 
@@ -141,12 +142,12 @@
     height: 200px; 
     background-color: green;
         float:left;
+        margin:10px
        
         
      } 
     .yellow6 {
     width: 600px; 
-    height: 280px; 
     background-color: gold;
        
         
