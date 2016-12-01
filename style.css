@@ -26,7 +26,7 @@ h1 {
 }
 
 ul {
-    color: rebeccapurple; margin-left:9em
+    color: rebeccapurple; 
 }
 
 #top-row {
@@ -41,7 +41,8 @@ nav {
 nav > ul {
     list-style-type: none;
     display: flex;
-    flex-flow: wrap
+    flex-flow: wrap;
+    margin-left:9em    
 }
 
 nav li {
@@ -91,10 +92,11 @@ h2 {
     display: flex;
     flex-flow: row wrap;
 }
-#middle-row{flex-flow: row-reverse wrap;  text-align: center;
+#middle-row{
+    flex-flow: row-reverse wrap;  text-align: center;
     margin: 0 auto; background-color: coral
 }
-#top-row >div, #middle-row>div{flex: 1 0 15em}
+#top-row >div, #middle-row>div{flex: 1 1 15em}
 
 image {
     width: auto
@@ -102,8 +104,24 @@ image {
 
 
 
-.rightcol .leftcol. {
+.rightcol, .leftcol {
     width: 48%;
     flex: 1 0 15em;
     margin: .5em;
+    padding: .5em;
+}
+
+#list-row {
+   display: flex;
+    flex-flow: row wrap; 
+    justify-content: center;
+    align-items: center;
+    background-color:coral
+}
+#list-row>div{flex: 1 1 50%}
+.listbox ul {display:inline-block;}
+.listbox img {
+    max-width: 40%;
+    margin-left: 2em
+    
 }
