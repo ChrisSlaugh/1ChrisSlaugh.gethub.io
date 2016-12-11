@@ -123,5 +123,8 @@ image {
 .listbox img {
     max-width: 40%;
     margin-left: 2em
+        
     
 }
+.rotate{transform:rotate(-90deg)}
+#middle-row{text-align: left;
